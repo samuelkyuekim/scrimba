@@ -1,6 +1,11 @@
+@font-face {
+  font-family: Corleone;
+  src: url("TheGodfather-v2.ttf");
+}
+
 body {
   color: white;
-  background-image: url("./andy-holmes-LUpDjlJv4_c-unsplash.jpg");
+  background-image: url("./images/andy-holmes-LUpDjlJv4_c-unsplash.jpg");
   background-size: cover;
   text-align: center;
   font-family: 'Orbitron', sans-serif;
@@ -10,4 +15,13 @@ body {
   padding: 6px 12px;
   background: white;
   border: none;
+  font-family: Corleone;
+}
+
+.underline{
+  border-bottom: 2px solid white;
+}
+
+#main-logo{
+  width: 100px;
 }
